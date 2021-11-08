@@ -151,6 +151,9 @@ drwxr-xr-x  85 mcfatem  1278142703   2.7K Nov  8 07:21 image
 
 Note that the `image` and `css` subdirectories shown above were created earlier by the _InDesign_ HTML export process.
 
+#### `main.py` Will NOT Overwrite Existing Article `.md` Files!
+It's important to note that the `main.py` script will NOT overwrite or replace any existing article `.md` files!  If you want to generate new article `.md` files you must remove older files from the issue's `-web-resources` subdirectory first!
+
 #### Logfile Output
 Each run of the `main.py` script will create a corresponding `.log` file, or append timestamped output to an existing logfile is one already exists in the working directory. The name of the logfile will include the `year` and `term` of the issue that was processed.  So, the `python3 ~/GitHub/rootstalk-workflow/main.py 2016 spring` example used above will create or append to a logfile named `2016-spring.log`.
 
@@ -164,32 +167,39 @@ _Hugo_ uses data expressed in YAML format at the top of an article to help with 
 
 ```
 ---
-title: 
+title:
 index: editor
-description: 
-date: '08/11/2021 09:35:37'
-draft: false 
-authors: 
-  - name: 
-    headshot: 
+description:
+date: '08/11/2021 13:16:02'
+draft: false
+contributors:
+  - role: author
+    name:
+    headshot:
+    caption:
     bio: " "
-  - name: 
-    headshot: 
+  - role: photographer
+    name:
+    headshot:
+    caption:
     bio: " "
-articletype: 
-tags: [" "," "] 
+articletype:
+tags: [" "," "]
 azure_dir: rootstalk-2016-spring
-azure_header: editor-header.jpg
+azure_headerimage:
 ---
 ```
 
-Note that the `main.py` script has pre-populated the `index:`, `date:`, `draft:`, `azure_dir:` and `azure_header:` keys in the frontmatter.  All other keys are left blank and must be completed by the issue's web-editor. Briefly, the pre-populated key|value pairs are:
+Note that the `main.py` script has pre-populated the `index:`, `date:`, `draft:`, `azure_dir:`, `azure_headerimage:` keys in the frontmatter, and two "sample" `role:` keys under `contributors:`.  All other keys are left blank and must be completed by the issue's web-editor. Briefly, the pre-populated key|value pairs are:
 
   - index: - The article's unique identifier pulled from the `articles` list of the corresponding issue's `.yml` file.
   - date: - The date and time when the article `.md` file was generated.
   - draft: false - A pre-populated `draft` key.  Changing the value to `true` will cause the article to be temporarily ignored by _Hugo_.
+  - contributors|role: - A pair of pre-populated keys, one for an 'author' of the piece, and another for a contributing 'photographer'.
   - azure_dir: - The name of the container in _Azure BLOB Storage_ where the article's media must be stored.
-  - azure_header: - The name of the article's "header image" file as it must appear in the corresponding `azure_dir`.
+  - azure_headerimage: - The name of the article's "header image" file as it appears in the corresponding `azure_dir`.
+
+Note that it is acceptable to add or remove `contributor:` elements, and it's acceptable to list more than one 'author', or other roles, per article when necessary.  Possible roles might include:  `artist`, `author`, `editor`, `illustrator`, `interviewer`, `photographer`, `poet`, `publisher` or any other reasonable term used to indicate a contributor's role.
 
 #### Content
 The content portion of the issue appears after the frontmatter and occupies the remainder of the article's `.md` file.  Initially the content will include **ALL of the Markdown** for the entire issue. **Again, it is responsibility of the issue's web-editor to reduce each initial file to a single article using a series of cut-and-paste (mostly CUT) operations!** 

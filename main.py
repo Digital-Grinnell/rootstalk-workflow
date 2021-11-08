@@ -109,12 +109,14 @@ def rootstalk_make_articles(issue, file):
                 'description: \n' \
                 'date: \n' \
                 'draft: false \n' \
-                'authors: \n' \
-                '  - name: \n' \
+                'contributors: \n' \
+                '  - role: author \n' \
+                '    name: \n' \
                 '    headshot: \n' \
                 '    caption: \n' \
                 '    bio: " "\n' \
-                '  - name: \n' \
+                '  - role: photographer \n' \
+                '    name: \n' \
                 '    headshot: \n' \
                 '    caption: \n' \
                 '    bio: " "\n' \
@@ -169,7 +171,7 @@ def rootstalk_make_articles(issue, file):
           fm = frontmatter.replace("index: ", "index: {}".format(name))\
             .replace("azure_dir: ", "azure_dir: rootstalk-{}".format(issue))\
             .replace("date: ", "date: '{}'".format(datetime.now().strftime('%d/%m/%Y %H:%M:%S')))\
-            .replace("azure_header: ", "azure_header: {}-header.jpg".format(name))
+            .replace("azure_headerimage: ", "azure_headerimage: {}-header.jpg".format(name))
 
           # Write the front matter and content to the article.md file
           with open(md_path, "w") as article_md:
