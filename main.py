@@ -112,14 +112,16 @@ def rootstalk_make_articles(issue, file):
                 'authors: \n' \
                 '  - name: \n' \
                 '    headshot: \n' \
+                '    caption: \n' \
                 '    bio: " "\n' \
                 '  - name: \n' \
                 '    headshot: \n' \
+                '    caption: \n' \
                 '    bio: " "\n' \
                 'articletype: \n' \
                 'tags: [" "," "] \n' \
                 'azure_dir: \n' \
-                "azure_header: \n" \
+                "azure_headerimage: \n" \
                 "---\n"
   
   logging.info("Making article.md files for {}.".format(issue))
