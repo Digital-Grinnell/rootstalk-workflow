@@ -69,7 +69,7 @@ The _InDesign_ menu/commands used for export to HTML are:
 All default settings should be accepted.
 
 ### Issue YAML File
-The generation of website content from an issue's HTML export is controlled by a single YAML data with a name of the form ***year-term***`.yml`.  For example, creation of website content for the `spring-2016` issue will be controlled by a file named `spring-2016.yml`.  Such files must reside in the same subdirectory as the issue's `.html` file and `-web-resources` subdirectory.  So, for example, the `spring-2016` issue must have files like this in a common directory:
+The generation of website content from an issue's HTML export is controlled by a single YAML data file with a name of the form ***year-term***`.yml`.  For example, creation of website content for the `spring-2016` issue will be controlled by a file named `spring-2016.yml`.  Such files must reside in the same subdirectory as the issue's `.html` file and `-web-resources` subdirectory.  So, for example, the `spring-2016` issue must have files like this in a common directory:
 
 ```
 drwxr-xr-x   4 mcfatem  1278142703   128B Nov  8 07:21 2016-spring-web-resources
