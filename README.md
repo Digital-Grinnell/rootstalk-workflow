@@ -13,8 +13,8 @@ _Rootstalk_ was launched in Spring 2015 as the product of a two-semester course 
 
 _Rootstalk_ publishes original essays, fiction, poetry, visual art, music, and video aimed at a general audience. We especially hope to publish contributions from people whose views are not normally seen or heard in public forums.
 
-## Volumes, Issues, Articles and Extras
-Each publication run of _Rootstalk_ is an `issue` consisting of several `articles` and `extras`.  An article is one or more contiguous pages of text and media (photos, illustrations, poetry, audio, video, etc.) authored by one or more named individuals.  Extras often include images without significant text that are distributed throughout each issue.  Issues are created in corresponding academic ***fall*** or ***spring*** terms.  The issues created in a single academic year make up one `volume`, commonly expressed as a roman numeral.
+## Volumes, Issues, Articles and Non-Article Media
+Each publication run of _Rootstalk_ is an `issue` consisting of several `articles` and `non-article media`.  An article is one or more contiguous pages of text and media (photos, illustrations, poetry, audio, video, etc.) authored by one or more named individuals.  Non-article media often includes images without significant text that are distributed throughout each issue.  Issues are created in corresponding academic ***fall*** or ***spring*** terms.  The issues created in a single academic year make up one `volume`, commonly expressed as a roman numeral.
 
 ### Year-Term Identifiers
 Each issue has a key identifier composed of the `year` and `term` in which its production was "created". Note that an issue that's created during one term may not be published until later, so we use the term in which the issue was created to generate an identifier of the form: ***year-term***.  For example, the issue "created" in the Spring term of the 2015-2016 academic year, and formally published in the summer of 2016, is identified as `2016-spring`.  Likewise, the preceding issue created in the Fall of that same academic year is identified as `2015-fall`.
