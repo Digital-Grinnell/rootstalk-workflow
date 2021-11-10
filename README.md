@@ -5,7 +5,9 @@ Python scripts and documentation for the _Rootstalk_ project web (and print) wor
 
 _Rootstalk: A Prairie Journal of Science, Culture and the Arts_ is an online, multi-media, interdisciplinary journal published under the aegis of the Center for Prairie Studies at Grinnell College.  The journal is published as part of _Digital.Grinnell_ at [https://rootstalk.grinnell.edu](https://rootstalk.grinnell.edu).  Students, alumni, staff, and faculty of the College have all been involved in creating _Rootstalk_.
 
-[] # (This is a comment. Only the paragraph above has been edited to pick up Mark B's comments saved in an MS Word document)
+<!--- This is a comment. 
+Only the paragraph above has been edited to pick up Mark B's comments saved in an MS Word document.  Everything between the opening < bracket and closing > bracket should be visible only when editing this document.
+-->
 
 _Rootstalk_ was launched in Spring 2015 as the product of a two-semester course sequence on journal publishing supported by the Wilson Program in Enterprise and Leadership. A three-year grant from the College’s Innovation Fund will allow us to explore ways to sustain the journal and further discussion about the prairie region.
 
