@@ -5,7 +5,7 @@ Python scripts and documentation for the _Rootstalk_ project web (and print) wor
 
 _Rootstalk: A Prairie Journal of Science, Culture and the Arts_ is an online, multi-media, interdisciplinary journal published under the aegis of the Center for Prairie Studies at Grinnell College.  The journal is published as part of _Digital.Grinnell_ at [https://rootstalk.grinnell.edu](https://rootstalk.grinnell.edu).  Students, alumni, staff, and faculty of the College have all been involved in creating _Rootstalk_.
 
-<!--- This is a comment. 
+<!--- This is a comment.
 Only the paragraph above has been edited to pick up Mark B's comments saved in an MS Word document.  Everything between the opening < bracket and closing > bracket should be visible only when editing this document.
 -->
 
@@ -30,6 +30,9 @@ Each issue has a distinct `title` which refers to its volume, a reference to the
 The print-edition of each _Rootstalk_ issue is created using &copy;[Adobe InDesign](https://www.adobe.com/products/indesign.html).  _InDesign_ output comes in two forms, an `.indd` file where the content and layout are stored for use exclusively within _InDesign_, and one or more `.pdf` files used to generate printed, paper copies.
 
 The `.indd` file created for a particular issue should follow the ***year-term*** naming convention.  For example, the Spring 2015-2016 academic term's file should be named `2016-spring.indd`.  This naming convention is important because once the print publication is complete and "final", _InDesign_ will be used to export (see section below for details) the issue to a `.html` file and corresponding content directory.  By default, the generated file and directory will have the same name as the `.indd` file.  So, for example, exporting the `2016-spring.indd` file to HTML will create a new `2016-spring.html` file and corresponding `2016-spring-web-resources` directory.
+
+## Content-Piece Workflow
+The supplemental [Content-Piece Workflow](./Content-Piece-Workflow.md) document includes a detailed description of the workflow employed to create journal content from submitted work.
 
 ## The Online/Web Edition
 The online-edition of each _Rootstalk_ issue is published using &copy;[Hugo](https://gohugo.io) as part of the [Rootstalk website](https://rootstalk.grinnell.edu).  Each online issue is composed of several articles, and each article is represented by a single [Markdown](https://en.wikipedia.org/wiki/Markdown) file coupled with media files housed in one of three web-accessible cloud storage services including &copy;[Azure BLOB Storage](https://azure.microsoft.com/en-us/services/storage/blobs/).
