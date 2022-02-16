@@ -114,12 +114,14 @@ def rootstalk_make_articles(issue, file):
                 '    name: \n' \
                 '    headshot: \n' \
                 '    caption: \n' \
-                '    bio: " "\n' \
+                '    bio: ""\n' \
                 '  - role: photographer \n' \
                 '    name: \n' \
                 '    headshot: \n' \
                 '    caption: \n' \
-                '    bio: " "\n' \
+                '    bio: ""\n' \
+                'byline: \n' \
+                'articleIndex: \n' \
                 'articletype: \n' \
                 'tags: [" "," "] \n' \
                 'azure_dir: \n' \
@@ -155,9 +157,12 @@ def rootstalk_make_articles(issue, file):
       
     for key, value in yml.items():
       logging.debug("{}: {}".format(key, value))
-          
+      
+    articleIndex = 0
+    
     # Read each article name/index and create a new article-name.md file if one does not already exist
     for name in yml["articles"]:
+      articleIndex += 1
       md_path = '{}-web-resources/{}.md'.format(issue, name)
       logging.info("Creating article markdown file '{}'...".format(md_path))
       if os.path.exists(md_path):
@@ -169,6 +174,7 @@ def rootstalk_make_articles(issue, file):
                 
           # Customize the front matter before inserting it...
           fm = frontmatter.replace("index: ", "index: {}".format(name))\
+            .replace("articleIndex: ", "articleIndex: {}".format(articleIndex))\
             .replace("azure_dir: ", "azure_dir: rootstalk-{}".format(issue))\
             .replace("date: ", "date: '{}'".format(datetime.now().strftime('%d/%m/%Y %H:%M:%S')))\
             .replace("azure_headerimage: ", "azure_headerimage: {}-header.jpg".format(name))
