@@ -44,7 +44,7 @@ If you find any problem(s) on a page please follow the steps outlined in the app
 
 | Platform | Instructional Video |
 | ---      | ---                 |
-| Mac | [Rootstalk-Visual-Proofreading.mov](./Rootstalk-Visual-Proofreading.mov) |
-| Windows | [Visual_Proofreading_Windows.mp4](./Visual_Proofreading_Windows.mp4) |
+| Mac | [Visual-Proofreading-MAC.mp4](https://rootstalk.blob.core.windows.net/documentation/Visual-Proofreading-MAC.mp4) |
+| Windows | [Visual_Proofreading_Windows.mp4](https://rootstalk.blob.core.windows.net/documentation/Visual_Proofreading_Windows.mp4) |
 
-[My OneDrive linked folder](https://grinco-my.sharepoint.com/:f:/g/personal/mcfatem_grinnell_edu/ErpnP02BTBNEo0zyanpZhPcBmZrDfL0ZEXXRkO4xSZKidA?e=IkGUOP) should also hold the individual issue-specific sub-folders where you can deposit your annotated screen captures.
+[My OneDrive linked folder](https://grinco-my.sharepoint.com/:f:/g/personal/mcfatem_grinnell_edu/ErpnP02BTBNEo0zyanpZhPcBmZrDfL0ZEXXRkO4xSZKidA?e=IkGUOP) should hold the individual issue-specific sub-folders where you can deposit your annotated screen captures.
