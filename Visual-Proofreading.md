@@ -40,8 +40,11 @@ Open each article in the issue, visually scan it for problems, and use the guida
 
 ## Reporting A Problem
 
-If you find any problem(s) on a page please follow the steps outlined in my video, `Rootstalk-Visual-Proofreading.mov`, to record and report it.  
+If you find any problem(s) on a page please follow the steps outlined in the appropriate video with links provided below.  Note that there's one video for Mac/OSX users and another specifically for Windows users.
 
-Apologies, _OneDrive_ doesn't do a very good job of linking directly to the video so please try opening [this linked folder](https://grinco-my.sharepoint.com/:f:/g/personal/mcfatem_grinnell_edu/ErpnP02BTBNEo0zyanpZhPcBmZrDfL0ZEXXRkO4xSZKidA?e=IkGUOP).  Then select the `Rootstalk-Visual-Proofreading.mov` file from that folder.
+| Platform | Instructional Video |
+| ---      | ---                 |
+| Mac | [Rootstalk-Visual-Proofreading.mov](./Rootstalk-Visual-Proofreading.mov) |
+| Windows | [Visual_Proofreading_Windows.mp4](./Visual_Proofreading_Windows.mp4) |
 
-FYI... [that linked folder](https://grinco-my.sharepoint.com/:f:/g/personal/mcfatem_grinnell_edu/ErpnP02BTBNEo0zyanpZhPcBmZrDfL0ZEXXRkO4xSZKidA?e=IkGUOP) should also hold the individual issue-specific sub-folders where you can deposit your annotated screen captures.
+[My OneDrive linked folder](https://grinco-my.sharepoint.com/:f:/g/personal/mcfatem_grinnell_edu/ErpnP02BTBNEo0zyanpZhPcBmZrDfL0ZEXXRkO4xSZKidA?e=IkGUOP) should also hold the individual issue-specific sub-folders where you can deposit your annotated screen captures.
