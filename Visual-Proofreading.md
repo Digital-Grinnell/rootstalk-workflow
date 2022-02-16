@@ -1,6 +1,6 @@
 # Visual Proofreading
 
-This document is intended to guide the process of visually proofreading _Rootstalk_ in a `Mac` environment. `Windows` users are encouraged to discover, and document, a similar approach.
+This document is intended to guide the process of visually proofreading _Rootstalk_ in a `Mac` or `Windows` environment. The workflow was crafted on a `Mac`, but specific instructions for users of `Windows` are also provided in some sections.
 
 ## Workflow Summary
 
@@ -19,7 +19,7 @@ The guidance provided here essentially calls for the following steps:
 
 ## Workflow Details
 
-Here are the detailed steps in the visual proofreading workflow.  Remember, this document assumes you are working with a `Mac`, not a cell phone, tablet, or `Windows` computer.  If you attempt this process on any other device please adjust accordingly and document your work for future proofreaders.
+Here are the detailed steps in the visual proofreading workflow.  Remember, this document assumes you are working with a `Mac` or `Windows` computer, not a cell phone, or tablet!   If you attempt this process on any other device please adjust accordingly and document your work for future proofreaders.
 
 ### 1 - Choose an Issue and Open the DEV Instance of the Website
 
