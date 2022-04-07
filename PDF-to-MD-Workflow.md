@@ -14,24 +14,31 @@ Using the PDF as a guide, delete all content before and following the article/pi
 
 Most text will already be formatted, yet still need to be checked. Using the pdf as a guide, check that:  
 
-Header images, headshot images, title, name of author/other contributors are filled on the front matter.  
+  - Header images,
+  - headshot images,
+  - title,  
+  - name of author/other contributors  
+
+are filled on the front matter.  
 
 Tags in quote marks are added: [“essay”, “interview”, “photography”] etc.  
 
 Figure formats are preserved:  
 
-{{% figure_azure pid="Mustard_Seed_Farm_1.jpg" alt="This is a picture of the Mustard Seed Community Farm, in a farmland" %}}  
+  `{{% figure_azure pid="Mustard_Seed_Farm_1.jpg" alt="This is a picture of the Mustard Seed Community Farm, in a farmland" %}}`  
 
 Pull quotes have the proper formatting:  
 
   `{{% pullquote %}} Text to be shown {{% /pullquote %}}`  
 
-There is a leaf bug at the end of the text: `{{% leaf-bug %}}`  
+There is a leaf bug at the end of the text:
 
+  `{{% leaf-bug %}}`  
 
 Pushing Changes onto the Website (For Windows Users)  
 
-On Windows Powershell, use the following commands to ensure all the content is up to date and ready to be pushed:
+On Windows Powershell, use the following commands to ensure all the content is up to date and ready to be pushed:  
+
   - `git pull`  
 
 ** Before pushing any changes, I like to run `hugo server` to see if there are any mistakes on the website.  
